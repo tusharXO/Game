@@ -16,4 +16,32 @@ body{
     border: 1px solid black;
     margin: 10px;
     height: 80vh;
-}   
+    flex-wrap: wrap;
+}  
+
+span{
+    border: 1px solid black;
+}
+
+.cont1{
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    width: 50vw;
+}
+
+.cont2{
+    flex: 1;
+    border: 1px solid black;
+    margin-left: auto;
+    text-align: center;
+    width: 50vw;
+}
+
+.cont3{
+    border: 1px solid black;
+}
+
+.cont4{
+    border: 1px solid black;
+}

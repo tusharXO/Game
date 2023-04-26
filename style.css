@@ -24,14 +24,16 @@ span{
 }
 
 .cont1{
-    flex: 1;
+    order:-2;
+    flex: 1 0 50%;
     border: 1px solid black;
     text-align: center;
     width: 50vw;
 }
 
 .cont2{
-    flex: 1;
+    order: -1;
+    flex: 1 0 50%;
     border: 1px solid black;
     margin-left: auto;
     text-align: center;

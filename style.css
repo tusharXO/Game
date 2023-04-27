@@ -15,35 +15,39 @@ body{
     display: flex;
     border: 1px solid black;
     margin: 10px;
-    height: 80vh;
+    height: 90vh;
     flex-wrap: wrap;
 }  
 
 span{
     border: 1px solid black;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
 }
 
 .cont1{
     order:-2;
-    flex: 1 0 50%;
+    flex: 1 0 48vw;
     border: 1px solid black;
     text-align: center;
-    width: 50vw;
 }
 
 .cont2{
     order: -1;
-    flex: 1 0 50%;
+    flex: 1 0 48vw;
     border: 1px solid black;
-    margin-left: auto;
     text-align: center;
-    width: 50vw;
 }
 
 .cont3{
     border: 1px solid black;
+    flex: 1 0 100%;
+    text-align: center;
 }
 
 .cont4{
+    flex: 1;
     border: 1px solid black;
 }
